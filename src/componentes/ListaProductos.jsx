@@ -165,7 +165,7 @@ const ListaProductos = () => {
                                     className="btn btn-danger btn-sm"
                                     onClick={() => eliminarDelCarrito(item.producto.id)}
                                 >
-                                    Eliminar
+                                    Eliminar 1
                                 </button>
                             </div>
                         </li>
