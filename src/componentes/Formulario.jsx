@@ -3,7 +3,7 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, se
 import { useNavigate } from 'react-router-dom';
 
 const Formulario = () => {
-    const [modoRegistro, setModoRegistro] = useState(false); // Alternar entre registro e inicio de sesión
+    const [modoRegistro, setModoRegistro] = useState(false);
     const [datos, setDatos] = useState({ email: '', password: '' });
     const [error, setError] = useState('');
     const navigate = useNavigate();
